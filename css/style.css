@@ -1,0 +1,1607 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+.container{max-width: 1443px;}
+body{background: url(../images/bg_2.jpg) no-repeat;background-size: cover;}
+.innerheader{background:url(../images/header_pic.jpg) no-repeat;background-size:cover;}
+.navbar {background-color: rgba(0,0,0,0.5);}
+.navbar-dark img{height: 75px;}
+
+.navbar-dark .navbar-toggler{border:none;color:white;}
+.navbar-dark .navbar-nav_1{list-style-type: none;}
+.navbar-dark .navbar-nav_1 .fa{font-size: 18px;}
+.navbar-dark .navbar-nav .nav-item{padding: 0 10px;}
+.navbar-dark .navbar-nav .nav-item .nav-link.active{color:#ec6f15;}
+.navbar-dark .navbar-nav .nav-item .nav-link{color:white;font-family: 'Roboto', sans-serif;padding-right: 20px;font-size: 20px;font-weight: 400;
+position:relative;}
+.navbar-dark .navbar-nav .nav-item .nav-link::after{content:'';height:3px;width:0px;background:#ec6f15;position:absolute;left: 7px;bottom:0;}
+.navbar .colr{color:white;font-size:12px;}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover::after{width:72%;transition: .5s;}
+.navbar .coll{width:80%;float:left;padding-right: 36px;}
+.clr{clear:both;}
+.navbar .colr{width:20%;float:left;text-align: right;padding-top: 10px;}
+.navbar .col-6 .searchbar .navbar-collapse{justify-content: center;}
+.navbar .search-form-tigger.btn-success {
+  color: #fff;
+font-size: 20px;
+margin-top: 4px;background: none;
+border: none !important;}
+.navbar .search-form-tigger.btn-success:focus {
+box-shadow: 0 0 0 .25rem #ec6f153b  !important;}
+.w-md-100{width:100%;}
+.navbar .search-form-wrapper.open {
+  display: block; position: absolute;
+  left: 0;
+  right: 0;
+  padding: 63px 160px;
+  margin-top: 50px;
+background: #0000005b;}
+#basic-addon2{margin-left: 29px;
+  margin-top: -22px;
+  margin-right: 38px;
+  font-size: 30px;}
+/* .navbar .search-form-wrapper {
+  display:inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 63px 160px;
+  margin-top: 50px;
+  background: url(/resources/images/misc/bg_search-open.png) right center no-repeat #050505a6;} */
+  nav .col-md-1 .search{position: absolute;
+top: 24px;
+right: 43px;}
+.navbar .col-6 .sb-icon-search{position:relative;color: #fff;font-size: 22px;font-family: 'FontAwesome';font-style: normal;font-weight: normal;font-variant: normal;text-transform: none !important; }
+.navbar .col-6 .sb-icon-search::before{content: "\f002";}
+.navbar-dark .navbar-nav_1 li{padding: 0 10px;float: left;position: relative;}
+.navbar-dark .navbar-nav_1 li.sidebar-butter {
+    position: absolute;
+    right: -80px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.navbar-dark .navbar-nav_1 li.nav-butter > span, .sidebar-butter > span {
+    display: block;
+    width: 15px;
+    height: 2px;
+    margin: 4px 0;
+    -webkit-box-shadow: inset 0 0 0 2px;
+    box-shadow: inset 0 0 0 2px;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.navbar-dark .navbar-nav_1 li.nav-butter:hover:not(.active) > span:nth-child(2), .sidebar-butter:hover:not(.active) > span:nth-child(2) {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+.navbar-dark .navbar-nav_1 li.nav-butter > span:nth-child(2), .sidebar-butter > span:nth-child(2) {
+    -webkit-transform: translateX(3px);
+    -ms-transform: translateX(3px);
+    transform: translateX(7px);}
+.navbar-dark .navbar-nav_1 .fa{padding-right: 42px;color:white;}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  background: transparent;
+  border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+  border-bottom: 1px solid #ec6f15;}
+.modal .form-control:focus{
+  background-color: transparent;
+  border-color:transparent;
+  box-shadow:none;}
+.modal-content{background-color: #060606a3;}
+.modal-header .fa
+{color: white;
+font-size: 27px;}
+.fa-search::before {
+  content: "\f002";
+  color: white;
+}
+.fa-search:hover a{color:#ec6f15;}
+header .banner_1{text-align: center;padding-top: 122px;padding-bottom: 422px;padding-left: 195px;
+  padding-right: 195px;}
+header .banner_1 h3{font-size:32px;font-family: 'Roboto', sans-serif;color:white;font-weight:300px;margin-top: 90px;}
+header .banner_1 h2{font-size:50px;font-family: 'Roboto', sans-serif;color:white;font-weight:400px;text-transform: uppercase;padding-top: 26px;}
+header .banner_1 p{font-size:18px;font-family: 'Roboto', sans-serif;color:#e0e0e0;font-weight:400px;margin-bottom: 80px;padding-top: 37px;}
+.missionhighlights{margin-top: -162px;padding-bottom: 224px;}
+.missionhighlights h4{font-size: 45px;text-transform: uppercase;text-align:center;color:#fff;font-family: 'Roboto', sans-serif;font-weight:300;margin-bottom: 50px;}
+.missionhighlights h4 span{font-family: 'Roboto', sans-serif;font-weight:900 !important;}
+.missionhighlights .col-4 .row_2{margin-top: 30px;}
+.missionhighlights .picbox_1 .snip1273 figure{overflow: hidden;}
+.missionhighlights .picbox_1 .snip1273 figure img{transition: all 0.5s ease;}
+.missionhighlights .picbox_1 .snip1273 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  margin:0;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  background-color: #000000;
+  font-size: 16px;
+}
+.missionhighlights .picbox_1 .snip1273 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+.missionhighlights .picbox_1 .snip1273 img {
+  position: relative;
+  max-width: 100%;
+  vertical-align: top;
+}
+.missionhighlights .picbox_1 .snip1273 figcaption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  padding: 20px 30px;
+}
+.missionhighlights .picbox_1 .snip1273 figcaption:before,
+.missionhighlights .picbox_1 .snip1273 figcaption:after {
+  width: 1px;
+  height: 0;
+}
+.missionhighlights .picbox_1 .snip1273 figcaption:before {
+  right: 0;
+  top: 0;
+}
+.missionhighlights .picbox_1 .snip1273 figcaption:after {
+  left: 0;
+  bottom: 0;
+}
+.missionhighlights .picbox_1 .snip1273 h3,
+.missionhighlights .picbox_1 .snip1273 p {
+  line-height: 1.5em;
+}
+.missionhighlights .picbox_1 .snip1273 h3 {
+  margin: 0 0 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.missionhighlights .picbox_1 .snip1273 p {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+.missionhighlights .picbox_1 .snip1273 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.missionhighlights .picbox_1 .snip1273:before,
+.missionhighlights .picbox_1 .snip1273:after,
+.missionhighlights .picbox_1 .snip1273 figcaption:before,
+.missionhighlights .picbox_1 .snip1273 figcaption:after {
+  position: absolute;
+  content: '';
+  background-color: #ec6f15;
+  z-index: 1;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0.8;
+}
+.missionhighlights .picbox_1 .snip1273:before,
+.missionhighlights .picbox_1 .snip1273:after {
+  height: 2px;
+  width: 0%;
+}
+.missionhighlights .picbox_1 .snip1273:before {
+  top: 0;
+  left: 0;
+}
+.missionhighlights .picbox_1 .snip1273:after {
+  bottom: 0;
+  right: 0;
+}
+.missionhighlights .picbox_1 .snip1273:hover img,
+.missionhighlights .picbox_1 .snip1273.hover img {
+  opacity: 0.4;
+}
+.missionhighlights .picbox_1 .snip1273:hover figcaption,
+.missionhighlights .picbox_1 .snip1273.hover figcaption {
+  opacity: 1;
+}
+.missionhighlights .picbox_1 .snip1273:hover figcaption:before,
+.missionhighlights .picbox_1 .snip1273.hover figcaption:before,
+.missionhighlights .picbox_1 .snip1273:hover figcaption:after,
+.missionhighlights .picbox_1 .snip1273.hover figcaption:after {
+  height: 100%;
+}
+.missionhighlights .picbox_1 .snip1273:hover:before,
+.missionhighlights .picbox_1 .snip1273.hover:before,
+.missionhighlights .picbox_1 .snip1273:hover:after,
+.missionhighlights .picbox_1 .snip1273.hover:after {
+  width: 100%;
+}
+.missionhighlights .picbox_1 .snip1273:hover:before,
+.missionhighlights .picbox_1 .snip1273.hover:before,
+.missionhighlights .picbox_1 .snip1273:hover:after,
+.missionhighlights .picbox_1 .snip1273.hover:after,
+.missionhighlights .picbox_1 .snip1273:hover figcaption:before,
+.missionhighlights .picbox_1 .snip1273.hover figcaption:before,
+.missionhighlights .picbox_1 .snip1273:hover figcaption:after,
+.missionhighlights .picbox_1 .snip1273.hover figcaption:after {
+  opacity: 0.1;
+}
+.missionhighlights .picbox_1 img:hover{transform: scale(1.5);}
+.missionhighlights .picbox_1 .snip1273 h3{font-size: 27px;color:white;font-family: 'Roboto', sans-serif;font-weight:400px;}
+.missionhighlights .picbox_1 .snip1273 p{font-size:12px;font-family: 'Roboto', sans-serif;color:#d0cece;font-weight:400px;line-height: 1.5;padding-top:42px;}
+.mangalaya{background: url(../images/inner_banner_1.jpg) no-repeat center top;background-size: cover;padding:67px 121px;background-attachment: fixed;max-width: 100%;}
+.mangalaya h4{font-size: 46px;text-transform: uppercase;text-align:center;color:#fff;font-family: 'Roboto', sans-serif;font-weight:300;text-align: left;}
+.mangalaya h4 span{font-family: 'Roboto', sans-serif;font-weight:900 !important;}
+.mangalaya h3{font-size: 35px ;text-align:center;color:#fff;font-family: 'Roboto', sans-serif;font-weight:100;text-align: left;letter-spacing:4px;margin-top: 21px;position:relative;margin-right: 398px;padding-right:0;padding-left: 64px; }
+.mangalaya h3::after{content:'';height: 2px;width:53px;background:#ec6f15;left:0;bottom:19px;position:absolute;}
+.mangalaya p{font-size:18px;font-family: 'Roboto', sans-serif;color:#d0cece;font-weight:400px;margin-bottom: 39px;padding-top: 39px;line-height: 2.0em;margin-right: 400px;}
+.btn:hover{color:white;border:none;}
+.main-btn {
+    padding:10px 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    border: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    z-index: 0 !important;
+    border:1px solid #d2d2d2;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: "Oswald", sans-serif;
+    overflow: hidden;
+    white-space: nowrap;}
+    .main-btn:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 450px;
+        height: 450px;
+        margin: auto;
+        background:#ec6f15;
+        border:none;
+        color:white;
+        border-radius: 50%;
+        z-index: -1;
+        -webkit-transform-origin: top center;
+        transform-origin: top center;
+        -webkit-transform: translateX(-50%) translateY(-5%) scale(0.4);
+        transform: translateX(-50%) translateY(-5%) scale(0.4);
+        -webkit-transition: -webkit-transform .9s;
+        transition: -webkit-transform .9s;
+        transition: transform .9s;
+        transition: transform .9s, -webkit-transform .9s;}
+.main-btn:hover:before {
+            -webkit-transition: -webkit-transform 1s;
+            transition: -webkit-transform 1s;
+            transition: transform 1s;
+            transition: transform 1s, -webkit-transform 1s;
+            -webkit-transform: translateX(-45%) translateY(0) scale(1);
+            transform: translateX(-45%) translateY(0) scale(1);
+            -webkit-transform-origin: bottom center;
+            transform-origin: bottom center;}
+.objects{padding: 170px 0;}
+.objects .col-6{text-align: left;}
+.objects h5{font-size: 30px;text-transform: uppercase;color:#fff;font-family: 'Roboto', sans-serif;font-weight:400;}
+.objects h5 span{font-weight:100;}
+.objects h4{font-size: 21px;color:#fff;font-family: 'Roboto', sans-serif;font-weight:100;text-align: left;letter-spacing:2px;padding-left: 52px;position:relative;} 
+.objects h4::after{content:'';height: 2px;width: 40px;background:#ec6f15;left:0;bottom:11px;position:absolute;}
+.objects p{font-size:18px;font-family: 'Roboto', sans-serif;color:#d0cece;font-weight:400px;margin-bottom: 39px;padding-top: 39px;line-height: 2.0em;}
+.objects ul{padding-left:0;margin-bottom: 74px;}
+.objects ul li{font-size: 25px;color: #ec6f15;margin-left: 25px;}
+.objects ul li span{font-size:18px;font-size:18px;font-family: 'Roboto', sans-serif;color:#d0cece;font-weight:400px;}
+.succes{background: url(../images/inner_banner_2.jpg);padding-bottom: 50px;margin-bottom:137px;}
+.succes h4{font-size: 26px;text-transform: uppercase;text-align:center;color:#fff;font-family: 'Roboto', sans-serif;font-weight:300;position:relative;padding-top: 122px;}
+.succes h4 span{font-family: 'Roboto', sans-serif;font-weight:900 !important;}
+.succes h4::after{content:'';height: 2px;width:53px;background:#ec6f15;left: 48%;bottom: -47px;position:absolute;}
+.succes .owl-theme .owl-dots {margin-top:100px !important;}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #ec6f15;
+}
+.succes .testimonial{background-color: rgba(255, 255, 255, 0.07);padding: 10px 0;margin-right: 15px;margin-top: 117px;}
+.succes .testimonial .row{margin-top:  20px;}
+.succes .testimonial .col-10 ul{padding-left: 0;margin-top: 16px;}
+.succes .testimonial .col-10 ul li{font-size:17px;color:#fff;font-family: 'Roboto', sans-serif;font-weight:100;list-style-type:none;padding-top: 5px;}    
+.succes .testimonial .col-10 ul li span{color:#fff;font-family: 'Roboto', sans-serif;font-weight:700;text-transform: uppercase;}
+.succes .testimonial p{font-size:20px;font-family: 'Roboto', sans-serif;color:#fffdfd;font-weight:300px;font-style:italic;margin-top: 20px;
+margin-bottom: 36px;margin-left:30px;}
+.pslv_xl{margin-bottom: 100px;}
+.pslv_xl h4{font-size:30px;text-transform: uppercase;text-align:center;color:#fff;font-family: 'Roboto', sans-serif;font-weight:300;text-align: left;}
+.pslv_xl h4 span{font-family: 'Roboto', sans-serif;font-weight:900 !important;}
+.pslv_xl h3{font-size: 27px;text-align:center;color:#939393;;font-family: 'Roboto', sans-serif;font-weight:100;text-align: left;letter-spacing:2px;position:relative;margin-right: 398px;padding-right:0;padding-left:48px;margin-bottom: 165px; }
+.pslv_xl h3::after{content:'';height: 2px;width:42px;background:#ec6f15;left:0;bottom:15px;position:absolute;}
+.pslv_xl .spacecraft{text-align: center;position:relative;}
+.pslv_xl .spacecraft .s1{position: relative;top: 15px;
+  left: -11px;max-width: 100%;}
+.pslv_xl .spacecraft .s2{position: relative;top: 92px;
+  left: -443px;max-width: 100%;}
+.pslv_xl .spacecraft .s3{position:relative;top: 242px;
+  left: -866px;max-width: 100%;}
+.pslv_xl .spacecraft .s4{position: relative;top: -181px;
+  left: -9px;max-width: 100%;}
+.pslv_xl .spacecraft .s5{position: relative;top: -93px;
+  left: 246px;max-width: 100%;}
+.pslv_xl .spacecraft .sattelite{max-width: 800px;width: 100%;}
+.profile{background: url(../images/inner_banner_3.jpg) no-repeat;padding-top: 100px;padding-bottom: 100px;}
+.profile .col-6{margin-top: 26px;}
+.profile h5{font-size: 30px;text-transform: uppercase;color:#fff;font-family: 'Roboto', sans-serif;font-weight:400;}
+.profile h5 span{font-weight:100;}
+.profile h4{font-size: 21px;color:#fff;font-family: 'Roboto', sans-serif;font-weight:100;text-align: left;letter-spacing:2px;padding-left: 52px;position:relative;} 
+.profile h4::after{content:'';height: 2px;width: 40px;background:#ec6f15;left:0;bottom:11px;position:absolute;}
+.profile p{font-size:18px;font-family: 'Roboto', sans-serif;color:#d0cece;font-weight:400px;margin-bottom: 39px;padding-top: 39px;line-height: 2.0em;}
+.profile ul{padding-left:0;margin-bottom: 74px;}
+.profile ul li{font-size: 25px;color: #ec6f15;margin-left: 25px;}
+.profile ul li span{font-family: 'Roboto', sans-serif;color:#d0cece;font-size: 18px;font-weight: 700;}
+.profile ul li p{font-size:18px;font-family: 'Roboto', sans-serif;color:#d0cece;font-weight:400px;line-height: 1.5;padding-top:5px;}
+.update{padding-bottom: 200px;}
+.update .col-4{text-align:center;margin-top: 92px;}
+.update .updatebox{  position: relative;
+    width:100%;}
+.update .updatebox img{ display: block;
+    width: 100%;
+    height: auto;
+  }
+.updatebox .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#ec6f15a6;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+.update .updatebox:hover .overlay {
+    height: 100%;
+  }
+.updatebox .overlay .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.updatebox .overlay .text h3{font-size: 27px;color:white;font-family: 'Roboto', sans-serif;font-weight:400px;}
+.updatebox .overlay .text p{font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 400px;
+  line-height: 1.5;
+  padding-top: 42px;
+  text-align: center;} 
+.update .updatebox p{font-size:18px;font-family: 'Roboto', sans-serif;color:#d0cece;font-weight:400px;line-height: 1.5em;text-align: left;margin-left: 23px;margin-top: 20px;}
+.update h4{font-size: 45px;text-transform: uppercase;text-align:center;color:#fff;font-family: 'Roboto', sans-serif;font-weight:300;  margin-top: 181px;}
+.update h4 span{font-family: 'Roboto', sans-serif;font-weight:900 !important;}
+
+
+
+
+/* ---for isro main page----- */
+
+
+  @media screen and (max-width:767px) {
+    .navbar-dark .navbar-nav {
+      text-align: center;
+    }
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+.container{max-width: 1443px;padding: 0 10px;}
+body{background: url(../images/bg_2.jpg) no-repeat;background-size: cover;}
+header.mainheader{background:url(../images/banner_1.jpg)  no-repeat;background-size:cover;}
+.navbar {background-color: rgba(0,0,0,0.5);}
+.navbar-dark img{height: 75px;}
+
+.navbar-dark .navbar-toggler{border:none;color:white;}
+.navbar-dark .navbar-nav_1{list-style-type: none;}
+.navbar-dark .navbar-nav_1 .fa{font-size: 18px;}
+.navbar-dark .navbar-nav .nav-item{padding: 0 10px;}
+.navbar-dark .navbar-nav .nav-item .nav-link{color:white;font-family: 'Roboto', sans-serif;padding-right: 20px;font-size: 20px;font-weight: 400;
+position:relative;}
+.navbar-dark .navbar-nav .nav-item .nav-link::after{content:'';height:3px;width:0px;background:#ec6f15;position:absolute;left: 7px;bottom:0;}
+.navbar .colr{color:white;font-size:12px;}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover::after{width:72%;transition: .5s;}
+.navbar .coll{width:80%;float:left;padding-right: 36px;}
+.clr{clear:both;}
+.navbar .colr{width:20%;float:left;text-align: right;padding-top: 10px;}
+.navbar .col-6 .searchbar .navbar-collapse{justify-content: center;}
+.modal-header{border-bottom:none !important;}
+.modal-footer{border-top:none !important;}
+.navbar .col-6{text-align:center;}
+.navbar .search-form-tigger.btn-success {
+  color: #fff;
+font-size: 20px;
+margin-top: 4px;background: none;
+border: none !important;}
+.navbar .search-form-tigger.btn-success:focus {
+box-shadow: 0 0 0 .25rem #ec6f153b  !important;}
+.navbar .search-form-wrapper.open {
+  display: block; position: absolute;
+  left: 0;
+  right: 0;
+  padding: 63px 160px;
+  margin-top: 50px;
+background: #0000005b;}
+#basic-addon2{margin-left: 29px;
+  margin-top: -22px;
+  margin-right: 38px;
+  font-size: 30px;}
+.navbar .col-6 .sb-icon-search{position:relative;color: #fff;font-size: 22px;font-family: 'FontAwesome';font-style: normal;font-weight: normal;font-variant: normal;text-transform: none !important; }
+.navbar .col-6 .sb-icon-search::before{content: "\f002";}
+.navbar-dark .navbar-nav_1 li{padding: 0 10px;float: left;position: relative;}
+.navbar-dark .navbar-nav_1 li.sidebar-butter {
+    position: absolute;
+    right: -80px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.navbar-dark .navbar-nav_1 li.nav-butter > span, .sidebar-butter > span {
+    display: block;
+    width: 15px;
+    height: 2px;
+    margin: 4px 0;
+    -webkit-box-shadow: inset 0 0 0 2px;
+    box-shadow: inset 0 0 0 2px;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.navbar-dark .navbar-nav_1 li.nav-butter:hover:not(.active) > span:nth-child(2), .sidebar-butter:hover:not(.active) > span:nth-child(2) {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+.navbar-dark .navbar-nav_1 li.nav-butter > span:nth-child(2), .sidebar-butter > span:nth-child(2) {
+    -webkit-transform: translateX(3px);
+    -ms-transform: translateX(3px);
+    transform: translateX(7px);}
+.navbar-dark .navbar-nav_1 .fa{padding-right: 42px;color:white;}
+header .banner{text-align: center;padding-top: 122px;padding-bottom: 422px;}
+header .banner h2{font-size:50px;font-family: 'Roboto', sans-serif;color:white;font-weight:900;text-transform: uppercase;padding-top: 26px;}
+header .banner h2 span{font-family: 'Roboto', sans-serif;font-weight:300 !important;}
+header .banner p{font-size:18px;font-family: 'Roboto', sans-serif;color:#e0e0e0;font-weight:400;margin-bottom: 80px;padding-top: 37px;padding-left: 256px;
+  padding-right: 256px;}
+.leatestmissions{margin-top: -411px;}
+.leatestmissions .picbox{margin-right: 10px;margin-left: 10px;}
+.leatestmissions .picbox .text_1{background-color:rgba(0,0,0,0.5);margin-top: -52px;position: relative;padding: 5px 0;}
+.leatestmissions .picbox .text_1 h3{text-align:center;font-size:28px;font-family: 'Roboto', sans-serif;color:white;font-weight:300;}
+.leatestmissions .picbox{  position: relative;
+  width:100%;overflow:hidden;}
+.leatestmissions .picbox img{ display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.leatestmissions .picbox:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.leatestmissions .picbox:hover .text_1{
+display: none;
+}
+.picbox .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ec6f155e;
+}
+.leatestmissions .picbox:hover .overlay {
+  opacity: 1;
+}
+.picbox .overlay .text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.picbox .overlay .text p{font-size:20px;}
+.picbox .overlay .text h3{font-size: 32px;
+  margin-bottom: 30px;overflow: hidden;}
+.spacecrafts{background:url(../images/innerbanner.jpg);text-align: left;padding: 100px 0;margin-top: 118px;}
+.spacecrafts h2{font-size:45px;font-family: 'Roboto', sans-serif;color:#ffffff;font-weight:100;}
+.spacecrafts h2 span{font-weight:400;}
+.spacecrafts h3{font-size:35px;font-family: 'Roboto', sans-serif;color:#fbfbfb;font-weight:100;letter-spacing: 4px;position:relative;margin-left: 50px;}
+.spacecrafts h3::after{content: '';height: 3px;width: 53px;background: #fff;left: -55px;bottom: 19px;position: absolute;}
+.spacecrafts p{font-size:20px;font-family: 'Roboto', sans-serif;color:#e0e0e0;font-weight:400;margin-bottom: 80px;padding-top: 37px;padding-right: 369px;}
+.spacecrafts ul li{font-size: 23px;font-family: 'Roboto', sans-serif;color:#ffffff;font-weight:400}
+.spacecrafts ul li span{color:#d0cece;font-size:20px;font-weight:400;font-size:20px;font-family: 'Roboto', sans-serif;}
+.veichle{padding-top:83px;}
+.veichle h4{font-size:35px;font-family: 'Roboto', sans-serif;color:#ffffff;font-weight:100;}
+.veichle h4 span{font-weight:400;position:relative;}
+.veichle h5{font-size:25px;font-family: 'Roboto', sans-serif;color:#a9a8a8;font-weight:100;letter-spacing: 4px;padding-left: 65px;}
+.veichle h5::after{content:'';height:2px;width:50px;background:#ec6f15;position:absolute;left: 7px;bottom:11px;}
+.veichle .col-3{text-align: center;}
+.veichle .v_box{margin-top: 136px;}
+.veichle .v_box img{height:900px;}
+.veichle .v_text h6{font-size: 40px;text-align:center;}
+.veichle .v_text{border:1px solid white;padding:5px 10px;width: 111px;text-align: center;margin-left: 124px;position: relative;margin-top: 64px;}
+.veichle .v_text::before{content:'';height:59px;width:2px;background: white;top: -60px;left: 49px;position:absolute;} 
+.updates{margin-top: 100px;padding-bottom: 200px;}
+.updates h2{font-size: 45px;text-transform: uppercase;text-align:center;color:#fff;font-family: 'Roboto', sans-serif;font-weight:900;margin-bottom: 50px;}
+.updates h2 span{font-family: 'Roboto', sans-serif;font-weight:100!important;}
+.updates.col-6{text-align:center;margin-top: 92px;}
+.updates .updatebox{  position: relative;
+    width:100%;overflow:hidden;}
+ .updates .updatebox img{ display: block;
+      width: 100%;
+      height: auto;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+    .updates .updatebox:hover img {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+.updatebox .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#614632a6;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+.updates .updatebox:hover .overlay {
+    height: 100%;
+  }
+.updatebox .overlay .text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+.counter-up{background: url(../images/counter\ banner.jpg) no-repeat;padding: 72px 20px;background-size: cover;}
+
+.counter-up .content .box .counter {
+  font-size: 105px;
+  font-weight: 900;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 20px;}
+.counter-up .content .box .text {
+    font-weight: 100;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 31px;}
+.plannedmission{text-align: center;}
+.plannedmission{margin-top: 173px;
+  padding-bottom: 300px;margin-bottom: 210px;}
+.plannedmission h2{font-size:50px;font-family: 'Roboto', sans-serif;color:white;font-weight:900;text-transform: uppercase;padding-top: 26px;margin-bottom: 30px;}
+.plannedmission h2 span{font-size:45px;font-family: 'Roboto', sans-serif;color:#ffffff;font-weight:100;text-transform: uppercase;}
+.plannedmission .items{width: 428px;height: 442px;}
+.plannedmission .bg-items{padding:0;background-color: transparent;width:0;height:0;}
+.plannedmission .items .tl6{width: 214px;height: 221px;background:#ec6f156b;}
+.plannedmission .items .tr6{width: 214px;height: 221px;background:#ec6f156b;}
+.plannedmission .items .br6{width: 214px;height: 221px;background:#ec6f156b;}
+.plannedmission .items .bl6{width: 214px;height: 221px;background:#ec6f156b;}
+.plannedmission .items .details{width: 406px;height: 419px;top: 14px;left: 10px;}
+
+.plannedmission .items h3{font-size: 27px;color:white;font-family: 'Roboto', sans-serif;font-weight:400px;}
+.plannedmission .items p{font-size:19px;font-family: 'Roboto', sans-serif;color:#ffffff;font-weight:400px;line-height: 1.5;padding-top:42px;}
+/* .footer{background: url(../images/footer_-banner.jpg) no-repeat;background-size: cover;padding-top: 64px;background-attachment: fixed;margin-top: 200px;}
+.footer .col-3{margin-top: 44px;}
+.footer p{font-size:18px;font-family: 'Roboto', sans-serif;color:#ffffff;font-weight:400px;margin-bottom: 39px;padding-top: 0; }
+.footer .col-3 h2{font-size:20px;font-family: 'Roboto', sans-serif;color:#ffffff;font-weight:400px;padding-bottom: 30px;}
+.footer .col-3 ul{padding-left: 0;}
+.footer .col-3 ul li{font-size:20px;font-family: 'Roboto', sans-serif;color:#ffffff;font-weight:400px;list-style-type:none;text-transform: capitalize;padding: 5px;}
+.footer .col-3 li i{font-size:20px;font-family: 'Roboto', sans-serif;color:#ffffff;font-weight:400px;list-style-type:none;text-transform: capitalize;
+  padding-right: 20px}
+.footer .col-3 a{color:white;}
+
+.footer .col-3 .row{padding: 8px 0;} */
+.footer{background: url(../images/footer_-banner.jpg) no-repeat;background-size: cover;padding-top: 64px;margin-bottom: -44px;background-attachment: fixed;}
+.footer .col-3{margin-top: 44px;margin-bottom: 74px;}
+.footer p{font-size:18px;font-family: 'Roboto', sans-serif;color:#ffffff;font-weight:400px;margin-bottom: 39px;padding-top: 0; }
+.footer .col-3 h2{font-size:20px;font-family: 'Roboto', sans-serif;color:#ffffff;font-weight:400px;padding-bottom: 30px;}
+.footer .col-3 ul{padding-left: 0;}
+.footer .col-3 ul li{font-size:20px;font-family: 'Roboto', sans-serif;color:#ffffff;font-weight:400px;list-style-type:none;text-transform: capitalize;padding-left:0;
+  padding-top: 2px;}
+.footer .col-3 li a{font-size:20px;font-family: 'Roboto', sans-serif;color:#ffffff;font-weight:400px;list-style-type:none;text-transform: capitalize;
+  padding-right: 20px}
+.footer .col-3 a{color:white;}
+.footer .fa {padding-right: 18px;}
+.footer .col-11 {padding-left: 16px;}
+.footer .col-1 {padding-right: 0;margin-top: 9px;}
+.footer .fa.fa-map-marker{padding-right:0;}
+.footer .col-3 ul li:hover a{color:#da7730;}
+.end{background: #00000057;}
+.end h4 {
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: arial;
+  padding: 19px;
+  font-weight: 100;
+}
+
+
+
+
+@media screen and (max-width:1337px) {
+  .leatestmissions {
+    padding-right: 15px;
+  }
+  .veichle .v_text {margin-left: 100px;}
+  .updates h2 {
+    margin-top: 100px;
+  }
+.updates{margin:0 10px;}
+.spacecrafts{padding-left:50px;}
+.spacecrafts p{font-size: 18px;}
+.plannedmission .items {width: 397px;}
+.plannedmission{padding-right: 17px;}
+.plannedmission .items .tl6 {width: 198px;}
+.plannedmission .items .tr6{width: 198px;}
+.plannedmission .items .br6{width: 198px;}
+.plannedmission .items .bl6{width: 198px;}
+.plannedmission .items .details {
+  width: 371px;
+  height: 414px;}
+.counter-up .content .box {padding:0;}
+.veichle{padding-left: 22px;}
+
+header .banner_1 p {
+  padding-left: 79px;
+  padding-right: 79px;}
+.missionhighlights .picbox_1 .snip1273 p {
+    font-size: 11px;}
+.mangalaya p {
+      padding-right: 144px;
+    }
+.missionhighlights{padding-right:30px;margin-top:-404px;padding-bottom: 46px;}
+.missionhighlights {margin-top: -330px;}
+.objects p {
+  padding-right: 56px;
+} 
+.objects ul li span {
+  padding-right: 19px;
+}
+.objects ul {
+  margin-bottom: 26px;
+}
+.profile ul li p {
+  padding-right: 43px;
+}
+.pslv_xl{padding-left:30px;}
+.succes {
+padding-left: 14px;
+padding-right: 20px;
+}
+.missionhighlights .picbox_1 .snip1273 p {
+font-size: 10px;
+}
+.missionhighlights .picbox_1 .snip1273 h3 {
+font-size: 19px;}
+.update {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.footer{padding-left:20px;  padding-right: 21px;
+}
+}
+@media screen and (max-width:1200px) {
+.leatestmissions .picbox {
+    margin-left: 7px;
+  }
+.veichle .v_text{margin-left: 86px;}
+.updates h2{margin-top: 93px;}
+.plannedmission .items {
+  width: 370px;
+}
+.plannedmission .items .tl6 {
+  width: 185px;
+}.plannedmission .items .tr6 {
+  width: 185px;
+}
+.plannedmission .items .bl6 {
+  width: 185px;
+}
+.plannedmission .items .br6 {
+  width: 185px;
+}
+.plannedmission .items .details {
+  width: 349px;}
+
+.updates {
+  margin: 0 20px;}
+.counter-up .content .box .text {
+    margin-right: 0px;
+  }
+.counter-up .content .box .counter {
+    font-size: 100px;}
+ .counter-up .content .box .text {
+      margin-right: 58px;
+    }
+.counter-up .content .box .text {font-size: 23px;}
+.counter-up {
+  padding: 72px 184px;
+}
+.plannedmission {
+  margin-top: 27px;
+}
+.leatestmissions {
+    padding-right: 21px;
+    padding-left: 10px;}
+    .plannedmission {
+      padding-right: 46px;
+    }   
+
+
+    header .banner_1 h3 {font-size: 29px;}
+    header .banner_1 h2 {font-size: 42px;}
+    header .banner_1 p {font-size: 14px;}
+    .missionhighlights h4 {font-size: 37px;margin-bottom: 45px;}
+    .mangalaya h4 {font-size: 41px;}
+    .mangalaya h3 {font-size: 30px;}
+    .mangalaya p {font-size: 13px;}
+    .main-btn {padding: 6px 16px;}
+    .objects h5 {font-size: 26px;}
+    .objects p {font-size: 14px;}
+    .objects ul li {font-size: 21px;}
+    .objects ul li span {font-size: 14px;}
+    .owl-carousel .owl-item img{margin-top: 5px;}
+    .pslv_xl .spacecraft .s4 {display:none;}
+    .pslv_xl .spacecraft .s5{display: none;}
+    .pslv_xl .spacecraft .s3{display:none;}
+    .pslv_xl .spacecraft .s2{display: none;}
+    .pslv_xl .spacecraft .s1{display: none;}
+    .profile h5 {font-size: 24px;}
+    .profile p {font-size: 14px;}
+    .profile ul li p {font-size: 14px;}
+    .profile ul li span {font-size: 16px;}
+    .profile ul li {margin-right: 88px;}
+    .update h4 {font-size: 37px;}
+    .update .col-4 {margin-top: 58px;}
+    .updatebox .overlay .text h3 {
+      font-size: 22px;}
+      .updatebox .overlay .text p {
+        font-size: 16px;}
+    .update {padding-bottom:0;}
+    .footer {margin-top: 85px;}
+    .footer p {
+      font-size: 16px;}
+}
+
+@media screen and (max-width:992px) {
+  header .banner h2 {
+      font-size: 38px;}
+  header .banner p {
+        font-size: 14px;
+      padding-left: 180px;
+      padding-right: 180px;}
+  .picbox .overlay .text p {
+        font-size: 12px;
+      }
+  .picbox .overlay .text h3 {
+        font-size: 23px;}
+.leatestmissions .picbox .text_1 h3 {font-size: 21px;}      
+  .spacecrafts h2 {
+          font-size: 34px;}
+  .spacecrafts h3 {
+            font-size: 27px;}
+  .spacecrafts h3::after {
+              content: '';
+              height: 3px;
+              width: 49px;
+              background: #fff;
+              left: -52px;
+              bottom: 15px;
+              position: absolute;
+            }
+  .spacecrafts p {
+              font-size: 14px;
+            }
+.spacecrafts ul li span {font-size: 17px;}
+.spacecrafts ul li {
+    font-size: 20px;}
+    .veichle .v_box {
+      padding-right: 36px;
+    }
+.veichle .v_text {
+      margin-left: 41px;
+    }
+.veichle .v_text {
+      margin-left: 41px;
+    }
+.veichle h4 {
+      font-size: 31px;}
+.veichle .v_text {margin-left: 45px;}
+ .plannedmission {
+    padding-right: 22px;
+  }          
+  .updates h2 {
+    font-size: 38px;} 
+  .updates {
+      padding-left: 10px;
+      padding-right: 7px;}
+  .plannedmission .col-4{padding: 0 8px;} 
+  .plannedmission .items {
+    width: 289px;
+  }       
+  .plannedmission .items .tl6 {
+    width: 145px;
+  }
+  .plannedmission .items .tr6 {
+    width: 145px;
+  }
+  .plannedmission .items .bl6 {
+    width: 145px;
+  }
+  .plannedmission .items .br6 {
+    width: 145px;
+  }
+  .plannedmission .items .details {
+    width: 267px;}
+    .updates h2 {
+      margin-bottom: 6px;
+    }
+    .updates .col-6 {
+      width: 100%;margin-bottom: 20px;
+    }
+    .counter-up {
+      padding: 72px 40px;
+    }
+  .footer p {
+      font-size: 14px;}
+  .footer .col-11 {
+        padding-left: 29px;
+      }
+  .footer .col-1 {
+        padding-left: 17px;
+      }
+.footer .col-3 li a {
+        font-size: 15px;}
+.footer p {
+          font-size: 15px;}
+
+
+          header .banner_1 p {
+            font-size: 11px;
+          }
+          .main-btn {
+            padding: 4px 6px;
+            font-size: 16px;
+          }
+          .missionhighlights h4 {
+            font-size: 31px;
+            margin-top: 20px;
+          }
+        .missionhighlights .picbox_1 .snip1273 h3 {
+            font-size: 20px;}
+        .missionhighlights .picbox_1 .snip1273 p {
+            font-size: 7px;}
+        .missionhighlights .picbox_1 .snip1273 figure {
+              margin-bottom: 0;
+            }
+        .missionhighlights .picbox_1 .snip1273 h3 {
+              font-size: 20px;}
+        .missionhighlights .picbox_1 .snip1273 p {
+              font-size: 7px;}
+              .mangalaya p {
+                margin-right: 0;
+              }
+      .mangalaya {padding: 67px 85px;}
+        .mangalaya h4 {
+                font-size: 34px;
+              }
+        .mangalaya h3 {
+                font-size: 35px;
+                text-align: center;
+                color: #fff;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 100;
+                text-align: left;
+                letter-spacing: 4px;
+                margin-top: 21px;
+                position: relative;
+                margin-right: 200px;
+                padding-right: 0;
+                padding-left: 64px;
+              }
+             
+              .mangalaya h3::after {
+                content: '';
+                height: 2px;
+                width: 46px;
+                background: #ec6f15;
+                left: 0;
+                bottom: 13px;
+                position: absolute;
+              }
+              .objects h5 {
+                font-size: 22px;
+              }
+              .objects h4 {
+                font-size: 18px;}
+                .objects p {
+                  font-size: 11px;
+                }
+      .objects ul li span {
+                  font-size: 11px;
+                }
+                .objects ul li {
+                  font-size: 19px;
+                }
+       .main-btn {
+                  padding: 4px 6px;  font-size: 15px;
+                }
+      .objects {
+                  padding: 51px 10px;}
+      .succes .testimonial p {
+                    font-size: 16px;}
+      .updatebox .overlay .text p {padding-top: 0;}
+      .updatebox .overlay .text h3 {
+        margin-bottom: 0;
+        margin-top: 16px;
+      }
+      .footer .col-3 ul li {
+        font-size: 13px;
+        padding-top: 2px;
+      }
+      .footer .fa {
+        padding-right: 7px;
+      }
+      .footer p {
+        font-size: 15px;
+      }
+      .updatebox .overlay .text p {
+        font-size: 15px;
+      }
+      .plannedmission .items p {
+        font-size: 18px;}         
+      .objects ul {margin-bottom: 34px;}
+          .objects ul li {
+          font-size: 21px;
+          margin-left: 14px;
+        }
+      .footer p {
+            font-size: 15px;
+          }
+       .footer .col-3 li a {
+            font-size: 17px;}
+        }
+@media screen and (max-width:768px) {
+  .navbar-dark .navbar-nav .nav-item .nav-link::after{left: -1px;}
+  .navbar-dark .navbar-nav .nav-item .nav-link:hover::after {
+    width: 13%;}
+    .container {
+      padding: 0 16px;
+    }
+    header .banner p {
+        padding-left: 126px;
+        padding-right: 126px;
+      }
+    .spacecrafts p {margin-bottom: 48px;
+        padding-right: 283px;
+      }
+    .veichle .v_text h6 {
+        font-size: 28px;}
+        .veichle .v_text {
+          margin-left: 11px;
+        }
+    .updatebox .overlay .text {font-size: 18px;}
+    .veichle .v_text h6 {
+      font-size: 27px;}
+    /* .plannedmission .items {
+        width: 219px;
+      }
+    .plannedmission .items {
+        width: 219px;
+      }
+      .plannedmission .items {
+        width: 219px;
+      }
+      .plannedmission .items .tl6 {
+        width: 110px;
+      }
+      .plannedmission .items .tr6 {
+        width: 110px;
+      }
+      .plannedmission .items .bl6 {
+        width: 110px;
+      }
+      .plannedmission .items .br6 {
+        width: 110px;
+      }
+      .plannedmission .items .details {
+        width: 197px;
+      } */
+      .plannedmission .items {width: 400px;}
+  .plannedmission .bg-items{margin-top:0;margin-left: 162px;margin-bottom: 503px;}
+  .plannedmission .col-4{width:100%;padding:0;}
+  .plannedmission .items .tl6 {width: 200px;}
+  .plannedmission .items .tr6 {width: 200px;}
+  .plannedmission .items .bl6 {width: 200px;}
+  .plannedmission .items .br6 {width: 200px;}
+  .plannedmission .items .details {width: 376px;}
+  .plannedmission {
+    margin-top: 57px;  padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+      .footer {
+        margin-top: 150px;
+          padding-right: 369px;
+      }
+      .footer .col-11 {
+        padding-left:10px;
+        padding-right: 0;
+      }
+      .footer .col-11 a{margin-left:3px;}
+      .footer .col-1 {
+        margin-top: 2px;
+      }
+      .navbar-dark .navbar-nav .nav-item .nav-link:hover::after {
+        width: 65px;}
+      .fa.fa-search{margin-right: 45px;
+        margin-bottom: 11px;}
+    
+    header .banner_1 h3 {
+      font-size: 25px;
+    }
+    header .banner_1 h2 {
+      font-size: 27px;
+    }
+    header .banner_1 p {
+      font-size: 12px;
+      padding-left: 40px;
+  padding-right: 40px;
+    }
+    .mangalaya h4 {
+      font-size: 30px;
+    }
+    .mangalaya p {
+      margin-right:0;
+    }
+    .mangalaya h3 {
+      font-size: 26px;
+      text-align: center;
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100;
+      text-align: left;
+      letter-spacing: 4px;
+      margin-top: 21px;
+      position: relative;
+      margin-right: 94px;
+      padding-right: 0;
+      padding-left: 64px;
+    }
+    .missionhighlights .picbox_1 .snip1273 p {
+      font-size: 13px;
+      padding-top: 0;
+    }
+    .succes .testimonial .col-10 ul {margin-top:0;}
+    .succes .testimonial .col-10 ul li {padding-top:0;}
+   
+    .succes .testimonial p {font-size:14px;margin-bottom:5px;}
+    
+  .missionhighlights .col-4 {
+      width: 65.333%;
+      margin-left: 140px;
+      margin-top: 28px;
+    }
+    .objects h5 {
+      font-size: 17px;
+    }
+    .objects h4 {
+      font-size: 16px;
+    }
+    .objects h4::after {
+      content: '';
+      height: 2px;
+      width: 40px;
+      background: #ec6f15;
+      left: 0;
+      bottom: 8px;
+      position: absolute;
+    }
+    .mangalaya p {
+      font-size: 12px;
+    }
+    .objects p {
+      font-size: 9px;padding-top: 14px;margin-bottom: 10px;
+    }
+    .objects ul li {
+      font-size: 15px;}  
+    .objects ul li span {
+        font-size: 12px;
+      }
+  .pslv_xl h4 {
+        font-size: 24px;}
+  .pslv_xl h3 {
+          font-size: 24px;}
+  .pslv_xl h3::after {
+            content: '';
+            height: 2px;
+            width: 42px;
+            background: #ec6f15;
+            left: 0;
+            bottom: 12px;
+            position: absolute;
+          }
+  .pslv_xl .spacecraft .sattelite {
+            max-width: 590px;}
+  .profile h5 {
+              font-size: 19px;
+            }
+   .profile h4 {
+              font-size: 20px;}
+  .profile p {
+                font-size: 10px;margin-bottom: 0;
+              }
+  .profile ul li p {
+                font-size: 10px;margin-bottom: 0;
+              }
+  .profile ul li {
+                margin-right: 14px;
+              }
+  .profile ul {margin-bottom: 21px;}
+  .profile p {padding-top: 4px;}
+  .updatebox .overlay .text p {
+    font-size: 9px;
+  }
+    .updatebox .overlay .text h3 {
+      font-size: 19px;
+      margin-bottom: 5px;
+    }
+    .footer .col-3{width: 100%;margin-top: 7px;}
+      .footer .col-3 h2{font-size: 15px;padding-bottom: 9px;margin-top: 35px;}
+      .footer .col-3 ul li {font-size: 16px;}
+      .footer p {font-size: 18px;}
+      .footer .col-11 {
+        padding-left:0;
+        padding-right: 0;
+      }
+      .footer p {
+    font-size: 15px;
+  }
+      footer .col-11 li a{margin-left: -14px;}
+    }
+@media screen and (max-width:576px) {
+  .navbar-dark .navbar-nav .nav-item {
+    text-align: left;}
+  
+  .leatestmissions .picbox .text_1 h3 {font-size: 16px;}
+  .picbox .overlay .text h3 {
+    font-size: 10px;
+  margin-bottom: 12px;}
+  header .banner {
+    margin-bottom: 26px;
+  }
+  .leatestmissions .col-6 {
+    width: 100%;
+  }
+  .leatestmissions .picbox {
+    margin-bottom: 49px;
+  }
+  .spacecrafts h2 {
+    font-size: 27px;
+  }
+  .spacecrafts h3 {
+    font-size: 22px;}
+.spacecrafts h3::after {
+      content: '';
+      height: 3px;
+      width: 41px;
+      background: #fff;
+      left: -52px;
+      bottom: 15px;
+      position: absolute;
+    }
+    .spacecrafts p {
+      padding-right: 108px;
+    }
+.veichle h4 {font-size: 23px;margin-right:0;}
+.veichle h5{ margin-right: 0;font-size: 20px;padding-left: 43px;}
+.veichle h5::after{bottom: 12px;padding-bottom: 0;width: 35px;left: 2px;}
+.veichle .col-3{width: 100%;}
+.veichle .v_text h6{font-size: 31px;}
+.veichle .v_text{padding:0;margin-left: 194px;}
+.veichle .v_box img {max-width: 42%;}
+.updates .col-6{width: 100%;margin-bottom: 15px;}
+.plannedmission .bg-items {margin-left: 81px;}
+.footer {
+  padding-right: 267px;
+}
+.footer .fa {
+  padding-right: 12px;
+}
+
+
+
+.missionhighlights .picbox_1 .snip1273 p {
+  font-size: 9px;
+}
+.missionhighlights .col-4 {
+  margin-left: 95px;
+  margin-top: 33px;
+}
+.missionhighlights h4 {
+  margin-bottom: -6px;
+}
+.pslv_xl .spacecraft {
+  padding-right: 64px;
+}
+.profile .col-6 {
+  width: 100%;
+}
+.profile {
+  padding-left: 20px;
+}
+.update .col-4 {
+  width: 100%;
+}
+.updatebox .overlay .text p {
+  font-size: 21px;
+}
+.updatebox .overlay .text h3 {
+  font-size: 28px;
+}
+.objects {
+  padding: 51px 21px;
+}
+.footer .fa.fa-map-marker {
+  margin-top: 7px;
+}
+.mangalaya p {
+  padding-right: 25px;margin-right:0;
+}
+.mangalaya h3 {
+  font-size: 18px;
+  margin-right: 25px;
+  padding-right: 0;
+  padding-left: 53px;
+}
+.objects .col-6 {
+  width: 100%;
+}
+.objects h5 {
+  margin-top: 43px;
+}
+header .banner_1 {padding-left:0;padding-right:0;}
+header .banner_1 h2 {
+  font-size: 19px;
+}
+header .banner_1 p {
+  font-size: 9px;
+}
+header .banner_1 h3 {
+  margin-top: -63px;
+}
+.objects p {
+  font-size: 11px;
+}
+.profile p {font-size: 12px;}
+.profile ul li p {
+  font-size: 12px;
+}
+.objects ul li span {
+  font-size: 11px;
+}
+.pslv_xl h3 {margin-right: 190px;}
+.footer .col-3 ul li {padding-left: 5px;}
+}    
+@media screen and (max-width:375px) {
+  header .banner h2 {
+    font-size: 31px;
+  }
+  .navbar-dark .navbar-toggler{margin-left: 187px;}
+header .banner_1 h3 {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+header .banner_1 h2 {
+      font-size: 17px;
+      padding-top: 11px;
+    }
+header .banner_1 {
+      padding-right: 45px;
+    }
+.navbar-dark .navbar-nav .nav-item .nav-link:hover::after {
+      width: 35%;
+    }
+header .banner_1 .btn{font-size: 10px;padding: 5px 10px;margin-bottom: 52px;}
+header.innerheader .w-md-100{width:100%;}
+   
+.navbar-dark .navbar-toggler {
+        margin-left: 28px;
+        position: absolute;
+        top: 29px;
+        right: 13px;
+      }
+.navbar-dark .navbar-nav .nav-item .nav-link:hover::after {
+        width: 27%;
+      }
+header .banner_1 p {
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-bottom: 36px;
+      }
+.missionhighlights h4{font-size: 23px;margin-bottom: 11px;}
+.missionhighlights .col-4{width:100%;}
+.missionhighlights .picbox_1 .snip1273 h3{font-size: 19px;}
+.missionhighlights .picbox_1 .snip1273 p{font-size: 8px;padding-top: 11px;}
+.mangalaya{padding:67px 10px;background-attachment: unset;}
+.mangalaya h4{font-size: 23px;}
+.mangalaya h3 {font-size: 16px;letter-spacing: 3px;margin-right:0;padding-right: 0;padding-left: 36px;margin-top: 13px;}
+.mangalaya h3::after{width: 32px;;bottom: 10px;}
+.mangalaya p{font-size: 10px;}
+.mangalaya .btn{font-size: 13px;padding: 5px 10px;margin-bottom: 52px;}
+    .objects {padding: 40px 10px;}
+    .objects .col-6 {width: 100%;}
+    .objects h5 {font-size: 23px;margin-top: 38px;}
+    .objects h4 {font-size: 18px;padding-left: 38px;}
+    .objects h4::after{width: 35px;}
+    .objects p{font-size: 10px;}
+    .objects ul{margin-bottom: 47px;}
+    .objects ul li span {font-size: 10px;}
+    .objects ul li {font-size: 16px;margin-left: 15px;}
+    .objects .btn{font-size: 13px;padding: 5px 10px;margin:0;}
+    .succes h4 {font-size: 23px;padding-top: 51px;}
+    .pslv_xl h4 {
+      font-size: 21px;
+    }
+    .pslv_xl h3 {
+      font-size: 20px;
+    }
+    .pslv_xl{padding-right: 30px;}
+    .pslv_xl h4 {font-size: 24px;}
+    .pslv_xl h3 {font-size: 23px;margin-right:0;}
+    .pslv_xl h3::after{bottom: 12px;padding-bottom: 0;}
+    .pslv_xl .spacecraft .s1{max-width: 43%;top: -21px;
+      left: 3px;}
+      .pslv_xl .spacecraft .sattelite {
+        position: absolute;
+        bottom: 0;
+        right: 61px;
+        top: -150px;
+        max-width: 229px;
+      }
+    .pslv_xl .spacecraft .s4 {position: absolute;top: 0px;left: 209px;max-width: 43%;}
+    .pslv_xl .spacecraft .s5{top: 49px;left: 31px;max-width: 43%;}
+    .pslv_xl .spacecraft .s3{top: -19px;left: -56px;max-width: 23%;}
+    .pslv_xl .spacecraft .s2 {top: 9px;left: -160px; max-width: 43%;}
+    .profile .col-6{width: 100%;padding-left:0;padding-right:0;}
+    .profile h4 {font-size: 18px;padding-left: 50px;}
+    .profile h5 {font-size: 23px;padding-left: 5px;}
+    .profile{padding-left: 17px;padding-bottom: 0;}
+   
+    .profile .picbox_1 img{padding-left: 4px;padding-right: 22px;}
+    .profile h4::after{left: 7px;bottom: 9px;}
+    .profile p{font-size: 10px;padding-right: 22px;}
+    .profile ul li span{font-size: 15px;}
+    .profile ul li{margin-left: 13px;}
+    .profile ul li p {font-size: 10px;}
+    .profile .btn{font-size: 13px;padding: 5px 10px;margin-bottom: 52px;}
+    .profile ul li{margin-left: 24px;}
+    .update {
+      margin-right: 20px;
+      margin-left: 16px;
+    }
+    .update h4 {font-size: 23px;margin-top: 74px;}
+    .update .col-4{margin-top: 33px;width: 100%;padding: 0 20px;}
+    .updatebox .overlay .text {top: 43%;left: 50%;}
+    .updatebox .overlay .text h3 {font-size: 22px;}
+    .updatebox .overlay .text p {font-size: 10px;padding-top: 14px;}
+    .footer .col-3{width: 100%;margin-top: 7px;}
+    .footer {
+      padding-right: 115px;
+    }
+    .footer .col-3 h2{font-size: 15px;padding-bottom: 9px;margin-top: 35px;}
+    .footer .col-3 ul li {font-size: 16px;}
+    .footer p {font-size: 15px;}
+
+}
+
+
+@media screen and (max-width:360px) {
+  .navbar-dark .navbar-toggler{margin-left: 106px;}
+  .navbar .col-6 .fa{font-size: 20px;padding-right: 29px;}
+  header .banner {
+    padding-left: 10px;
+    padding-right: 10px;}
+  header .banner h3 {
+    margin-top: -30px;
+  }
+  header .banner h2 {
+    font-size: 19px;
+  }
+  header .banner p {
+    font-size: 9px;padding-left: 10px;
+    padding-right: 10px;
+  }
+  .picbox .overlay .text p {
+    font-size: 8px;
+  }
+  .spacecrafts h3 {
+    font-size: 14px;}
+    .spacecrafts h2 {
+      font-size: 22px;
+    }
+    .spacecrafts p {
+      padding-right: 1px;
+    }
+    .updates h2 {
+      font-size: 26px;margin-bottom: 12px;}
+      .plannedmission h2 {font-size:26px;}
+      .plannedmission h2 span {font-size:26px;}
+  .succes h4 {
+    font-size: 18px;
+  }
+  .pslv_xl h3 {
+    font-size: 18px;
+  }
+  .pslv_xl .spacecraft .sattelite {
+    position: absolute;
+    bottom: 0;
+    right: 41px;
+    top: -150px;
+    max-width: 229px;
+  }
+  .updatebox .overlay .text h3 {
+    font-size: 16px;
+  }
+  .spacecrafts p {
+    padding-right: 25px;
+  }
+  .veichle .v_text {
+    margin-left: 86px;
+  }
+  .plannedmission .bg-items {
+    margin-top: 0;
+    margin-left: 5px;}
+  .footer {
+    padding-right: 0px;
+  }
+  .footer p {
+    font-size: 13px !important;
+  }
+  .navbar-dark .navbar-nav .nav-item .nav-link:hover::after {
+    width: 31%;}
+
+
+    .navbar{padding: 0 7px;}
+    header .banner_1 h3 {
+      font-size: 19px;
+    }
+    header .banner_1 h2 {
+      font-size: 19px;}
+    header .banner_1 p {
+      padding-top: 12px;
+    }
+    .missionhighlights .col-4 {
+      margin-left: 14px;
+    }
+    .missionhighlights h4 {
+      margin-left: 31px;
+    }
+    .mangalaya p {
+      margin-right: 0;
+    }
+    .succes {
+      margin-bottom: 34px;
+    }
+    .pslv_xl h4 {
+      font-size: 20px;
+    }
+    .pslv_xl h3 {
+      font-size: 18px;}
+      .pslv_xl h3::after {
+        content: '';
+        height: 2px;
+        width: 42px;
+        background: #ec6f15;
+        left: 2px;
+        bottom: 12px;
+        position: absolute;
+        top: 13px;
+      }
+      .profile {
+        padding-left: 9px;
+  }
+  }
+
+
+
+
+
+
+

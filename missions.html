@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MISSIONS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/component.css" /> 
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" href="css/style_animated.css"/>
+    <link rel="stylesheet" href="css/animate.css"> 
+    <link rel="stylesheet" href="css/style_c.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/toggled-search-bar.css">
+    <!-- <script src="js/modernizr.custom.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    
+    <script src="js/wow.min.js"></script>
+    <script>
+     wow = new WOW(
+       {
+         animateClass: 'animated',
+         offset:      100,
+         callback:     function(box) {
+           console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+         }
+       }
+     );
+     wow.init();
+     document.getElementById('moar').onclick = function() {
+       var section = document.createElement('section');
+       section.className = 'section--purple wow fadeInDown';
+       this.parentNode.insertBefore(section, this);
+     };
+   </script>
+
+</head>
+<body>
+    <header class="mainheader">
+      <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Eighth navbar example">
+       
+        <div class="container">
+          <img src="images/logo.png" alt="">
+          <button class="navbar-toggler mb-1 mt-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+       aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation" class="text-end text-sm-start">
+        <span > 
+          <div class="sidebar-butter" data-magic-cursor="link-small">
+          <span></span>
+          <span></span>
+          <span></span></div></span>
+      </button>
+      <div class="row w-md-100">
+       <div class="col-md-1 order-md-2">
+
+
+         <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="search"><i class="fa fa-search mt-3" aria-hidden="true"></i></a>
+
+
+      <!--/.navbar-collapse -->
+
+
+
+</div>
+        <div class="col-md-11 order-md-1">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarsExample07">
+            
+              <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="missions.html">MISSION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SATELLITE</a>
+              </li>
+            </ul></div></div>
+
+         
+        <!-- <div id="sb-search" class="sb-search">
+          <form>
+            <input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+            <input class="sb-search-submit" type="submit" value="">
+            <span class="sb-icon-search"></span>
+          </form>
+        </div> -->
+     </div>
+</div>
+    
+    </div>
+  </div>
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-fullscreen">
+<div class="modal-content">
+<div class="modal-header">
+
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></button>
+</div>
+<div class="modal-body d-flex align-items-center">
+ <input type="text" name="search" class="search form-control" placeholder="Search">
+</div>
+
+</div>
+</div>
+</div>
+              <!-- <div id="sb-search" class="sb-search">
+                <form>
+                  <input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+                  <input class="sb-search-submit" type="submit" value="">
+                  <span class="sb-icon-search"></span>
+                </form>
+              </div> -->
+           </div>
+      </div>
+          
+          </div>
+        </div>
+      </nav>
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Eighth navbar example">
+       
+               <div class="container">
+                 <img src="images/logo.png" alt="">
+                 <button class="navbar-toggler mb-1 mt-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+              aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation" class="text-end text-sm-start">
+               <span > 
+                 <div class="sidebar-butter" data-magic-cursor="link-small">
+                 <span></span>
+                 <span></span>
+                 <span></span></div></span>
+             </button>
+             <div class="row">
+               <div class="col-6">
+                 <div class="collapse navbar-collapse justify-content-center" id="navbarsExample07">
+                   
+                     <ul class="navbar-nav">
+                     <li class="nav-item">
+                       <a class="nav-link" href="../index_2.html">HOME</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="#">ABOUT</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="missions.html">MISSION</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="#">SATELLITE</a>
+                     </li>
+                   </ul></div></div>
+                   <div class="col-6">
+
+
+                      <a data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-search mt-3" aria-hidden="true"></i></a>
+ 
+             
+                   <!--/.navbar-collapse -->
+ 
+          
+        
+  </div>
+                
+               <!-- <div id="sb-search" class="sb-search">
+                 <form>
+                   <input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+                   <input class="sb-search-submit" type="submit" value="">
+                   <span class="sb-icon-search"></span>
+                 </form>
+               </div> -->
+            </div>
+       </div>
+           
+           </div>
+         </div>
+       
+       <!-- Button trigger modal -->
+ 
+ 
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-fullscreen">
+     <div class="modal-content">
+       <div class="modal-header">
+
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></button>
+       </div>
+       <div class="modal-body d-flex align-items-center">
+        <input type="text" name="search" class="search form-control" placeholder="Search">
+       </div>
+     
+     </div>
+   </div>
+ </div>
+                     <!-- <div id="sb-search" class="sb-search">
+                       <form>
+                         <input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+                         <input class="sb-search-submit" type="submit" value="">
+                         <span class="sb-icon-search"></span>
+                       </form>
+                     </div> -->
+                  </div>
+             </div>
+                 
+                 </div>
+               </div>
+             </nav>
+             <div class="banner">
+               <h2 class="wow fadeInDown">LEATEST <span>MISSIONS </span></h2>
+               <p class="wow fadeInDown">The Indian Space Research Organisation has carried out 111 spacecraft missions, 79 launch missions and planned several missions including the Aditya, Gaganyaan and MOM 2.</p>
+             </div>
+           </header>
+           <div class="leatestmissions wow fadeInUp">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                 <div class="picbox">
+                   <img class="img-fluid" src="images/L _mission_1.jpg" alt="">
+                   <div class="text_1">
+                     <h3>LVM3-X/CARE MISSION</h3>
+                   </div>
+                   <div class="overlay">
+                    <div class="text">
+                      <h3>LVM3-X/CARE MISSION</h3>
+                  <p>LVM3-X/CARE Mission, the first experimental suborbital flight of India's latest generation Launch Vehicle- LVM3, lifted off from Satish Dhawan Space Centre SHAR, Sriharikota, on December 18, 2014 and injected the Crew Module CARE at an altitude of 126km. </p>    
+                    </div>
+                  </div>
+               </div>
+                </div>
+                <div class="col-6">
+                 <div class="picbox">
+                   <img class="img-fluid" src="images/L-_mission_2.jpg" alt="">
+                   <div class="text_1">
+                    <h3>AstroSat MISSION</h3>
+                  </div>
+                  <div class="overlay">
+                    <div class="text">
+                      <h3>ASTROSAT MISSION</h3>
+                      <p>AstroSat is the first dedicated Indian astronomy mission aimed at studying celestial sources in X-ray, optical and UV spectral bands simultaneously. The payloads cover the energy bands of Ultraviolet (Near and Far), limited optical and X-ray regime (0.3 keV to 100keV).</p> 
+                    </div>
+                  </div>
+               </div>
+                </div>
+              </div>
+            </div>
+           </div>
+           <section class="spacecrafts">
+             <div class="container">
+             <h2 class="wow bounceInLeft">INDIAN <span>SPACECRAFTS</span> </h2>
+            <h3 class="wow bounceInLeft">General Satellite Programmes</h3>
+            <p class="wow bounceInLeft">Since the launch of Aryabhata in 1975  a number of satellite series and constellations have been deployed by Indian and foreign launchers. At present,ISRO operates one of the largest constellations of active communication and earth imaging satellites for military uses.</p>
+            <ul>
+              <li class="wow bounceInLeft"><span>ommunication Satellites.</span></li>
+              <li class="wow bounceInLeft"><span>Earth Observation Satellies.</span></li>
+              <li class="wow bounceInLeft"><span>Scientific Satellies.</span></li>
+              <li class="wow bounceInLeft"><span>Navigation Satellies.</span></li>
+              <li class="wow bounceInLeft"><span>Experimental Satellites.</span></li>
+              <li class="wow bounceInLeft"><span>Small Satellites.</span></li>
+              <li class="wow bounceInLeft"><span>Student Satellites.</span></li>
+            </ul></div>
+           </section>
+           <section class="veichle">
+             <div class="container">
+             <h4 class="wow fadeInDown">Launch <span>vehicles</span></h4>
+             <h5 class="wow fadeInDown">Indian carrier rockets</h5>
+             <div class="row">
+             <div class="col-3">
+              <div class="v_box wow fadeInUp">
+                   <img class="img-fluid" src="images/slv.png" alt="">
+                  </div> 
+                   <div class="v_text wow fadeInUp">
+                    <h6>SLV</h6>
+                   </div>
+                 
+
+                </div>
+            <div class="col-3">
+                <div class="v_box wow fadeInUp">
+                  <img class="img-fluid" src="images/aslv.png" alt=""> 
+                </div>
+                <div class="v_text wow fadeInUp">
+                  <h6 class="wow fadeInUp">ASLV</h6>
+                </div>
+               
+              </div>
+                <div class="col-3">
+                <div class="v_box wow fadeInUp">
+                  <img class="img-fluid" src="images/pslv.png" alt="">
+                </div>
+                <div class="v_text wow fadeInUp">
+                  <h6 class="wow fadeInUp">PSLV</h6>
+                </div> 
+              </div>
+                <div class="col-3">
+                <div class="v_box wow fadeInUp">
+                  <img class="img-fluid" src="images/gslv.png" alt="">
+                </div>
+                <div class="v_text wow fadeInUp">
+                  <h6 class="wow fadeInUp">GSLV</h6>
+                </div>
+              </div>
+              </div>
+              </div>
+            </div>
+           </section>
+           <section class="updates">
+            <h2 class="wow fadeInUp">trending <span>MISSIONS </span></h2>
+            <div class="container">
+              <div class="row">
+                <div class="col-6 wow fadeInUp">
+                  <div class="updatebox">
+                    <img class="img-fluid" src="images/tm1.jpg" alt="">
+                    <div class="overlay">
+                      <div class="text">
+                        PSLV-C52/EOS-04 Mission: The countdown process of 25 hours and 30 minutes leading to the launch commenced at 04:29 hours today, the <br>February 13, 2022.
+                      </div>
+                    </div>
+                    
+          
+                  </div>
+                </div>
+                <div class="col-6 wow fadeInUp">
+                  <div class="updatebox">
+                    <img class="img-fluid" src="images/tm2.jpg" alt="">
+                    <div class="overlay">
+                      <div class="text">
+                        PSLV-C51/Amazonia-1 Mission:The finally achieved orbit is about 340 km above GEO altitude in perfect compliance with IADC guidelines for space debris mitigation of GEO<br> objects.
+           </div>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+                <!-- <div class="col-4 wow fadeInUp">
+                  <div class="updatebox">
+                    <img src="images/update3.jpg" alt="">
+                    <div class="overlay">
+                      <div class="text">
+                        January 20, 2022, High Thrust VIKAS Engine for<br> Gaganyaan programme has successfully under<br>gone qualification test for a duration of 25 sec<br>onds at ISRO Propulsion Complex.
+                      </div>
+                      
+                    </div>
+                    
+                  </div>
+                </div> -->
+              </div>
+            </div>
+           </section>
+            <div class="counter-up">
+              <div class="content">
+                <div class="box">
+                  <div class="counter">114</div>
+                  <div class="text">Spacecraft<br>Missions</div>
+                </div>
+                <div class="box">
+                  <div class="counter">83</div>
+                  <div class="text">Launch<br>Missions</div>
+                </div>
+                <div class="box">
+                  <div class="counter">13</div>
+                  <div class="text">Student<br>Satellites</div>
+                </div>
+                <div class="box">
+                  <div class="counter">342</div>
+                  <div class="text">Foreign<br>Satellites</div>
+                </div>
+                <!-- <div class="box">
+                  <div class="counter">2</div>
+                  <div class="text">Reentry<br>Missions</div>
+                </div> -->
+              </div>
+            </div>
+           <section class="plannedmission">
+            <h2 class="wow fadeInUp">Planned <span>MISSIONS </span></h2>
+            <div class="container">
+              <div class="row">
+                <div class="col-4 wow fadeInUp">
+                  <div class="bg-items">
+                  <div class="items" style="background-image :url(images/l\ missiion.jpg)">
+                    <div class="tl6"></div>
+                    <div class="tr6"></div>
+                    <div class="bl6"></div>
+                    <div class="br6"></div>
+                    <div class="details">
+                      <h3>RISAT-1A</h3>
+                      <p>RISAT-1A is a radar-imaging satellite. Its configuration is similar to RISAT-1. It is a land-based mission with primary application in terrain mapping and analysis of land, ocean and water surface for soil moisture.</p>
+                    </div>
+                  </div>
+              </div></div>
+                  
+                <div class="col-4 wow fadeInUp">
+                  <div class="bg-items">
+                    <div class="items" style="background-image :url(images/l\ missiion2.jpg)">
+                      <div class="tl6"></div>
+                      <div class="tr6"></div>
+                      <div class="bl6"></div>
+                      <div class="br6"></div>
+                      <div class="details">
+                        <h3>Gaganyaan 1</h3>
+                        <p>Gaganyaan ("Orbital Vehicle") is an Indian crewed orbital spacecraft (jointly made by ISRO and HAL) intended to be the basis of the Indian Human Spaceflight Programme.</p>
+                       
+                      </div>
+                    </div>
+                </div>
+                </div>
+                  
+               
+            <div class="col-4 wow fadeInUp">
+              <div class="bg-items">
+                <div class="items" style="background-image :url(images/l\ missiion3.jpg)">
+                  <div class="tl6"></div>
+                  <div class="tr6"></div>
+                  <div class="bl6"></div>
+                  <div class="br6"></div>
+                  <div class="details">
+                    <h3>Aditya-L1</h3>
+                    <p>Aditya-L1 is the first Indian observatory class mission to study the solar corona using a solar coronagraph and also chromosphere using near UV instrument.</p>
+            
+                  </div>
+                </div>
+            </div>
+            </div>
+                  
+        
+              </div>
+            </div>
+           </section>
+           <!-- <section class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-3">
+                  <img class="img-fluid" src="images/logo.png" alt="">
+                
+                <p>
+                  The Indian Space Research Organisa<br>tion is the national space agency of<br> India, headquartered in Bengaluru. 
+                </p>
+              </div>
+                <div class="col-3">
+                  <h2>MAIN MENU</h2>
+                  <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>missions</li>
+                    <li>satellite </li>
+                  </ul>
+                </div>
+                <div class="col-3">
+                  <h2>QUICK MENU</h2>
+                  <ul>
+                    <li>Site Map</li>
+                    <li>Related Links</li>
+                    <li>Hours: 9am-5:30pm</li>
+                  </ul>
+                </div>
+                <div class="col-3">
+                  <h2>QUICK MENU</h2>
+                  <ul>
+                    <li>033 2341 0015</li>
+                    <li> www.isro.gov.in</li>
+                    <li>iicrb@sro.Gov.in</li>
+                    <li>Plot No. BG-02, Rajarhat,<br>
+                      Action Area 1B, Newtown,<br> 
+                      West Bengal 700156
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            </div>
+            </section> -->
+            <section class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col-3">
+                    <img class="img-fluid" src="images/logo.png" alt="">
+                  
+                  <p>
+                    The Indian Space Research Organisation is the national space agency of  India, headquartered in Bengaluru. 
+                  </p>
+                </div>
+                  <div class="col-3">
+                    <h2>MAIN MENU</h2>
+                    <ul>
+                      <li><a href="">home</a></li>
+                      <li><a href="">about</a></li>
+                      <li><a href="">missions</a></li>
+                      <li> <a href="">satellite </a></li>
+                    </ul>
+                  </div>
+                  <div class="col-3">
+                    <h2>QUICK MENU</h2>
+                    <ul>
+                      <li><a href="">Site Map</a></li>
+                      <li> <a href=""> Related Links</a></li>
+                      <li> <a href="">Hours: 9am-5:30pm</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-3">
+                    <h2>CONTACT</h2>
+                    <ul>
+                      <li><i class="fa fa-phone" aria-hidden="true"></i><a>033 2341 0015</a></li>
+                      <li><i class="fa fa-globe" aria-hidden="true"></i><a>www.isro.gov.in</a></li>
+                      <li><i class="fa fa-envelope" aria-hidden="true"></i><a>iicrb@sro.Gov.in</a></li>
+                      <li>
+                        <div class="row">
+                          <div class="col-1"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                          <div class="col-11" >
+                            <ul>
+                              <li><a>Antariksh Bhavan,New BEL Road,Bangalore 560 231</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </div>
+              
+              </section>
+              <div class="end">
+                <h4>© 2022 isro.com | All Rights Reserved</h4>
+              </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+          $( document ).ready(function() {
+          $('[data-toggle=search-form]').click(function() {
+              $('.search-form-wrapper').toggleClass('open');
+              $('.search-form-wrapper .search').focus();
+              $('html').toggleClass('search-form-open');
+            });
+            $('[data-toggle=search-form-close]').click(function() {
+              $('.search-form-wrapper').removeClass('open');
+              $('html').removeClass('search-form-open');
+            });
+          $('.search-form-wrapper .search').keypress(function( event ) {
+            if($(this).val() == "Search") $(this).val("");
+          });
+          
+          $('.search-form-wrapper').click(function(event) {
+            $('.search-form-wrapper').removeClass('open');
+            $('html').removeClass('search-form-open');
+          });
+          });
+          </script>
+           <script src="js/uisearch.js"></script>
+<!-- <script>
+  new UISearch( document.getElementById( 'sb-search' ) );
+</script>
+<script src="js/classie.js"></script> -->
+<script>
+      $(document).ready(function(){
+        $('.counter').counterUp({
+          delay: 5,
+          time: 1200
+        });
+      });
+      </script>
+      
+</body>
+</html>
